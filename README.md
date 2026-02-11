@@ -14,6 +14,8 @@
 <!-- Icons (FontAwesome) -->
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
 <style>
 * {
 margin: 0;
@@ -23,10 +25,10 @@ font-family: 'Poppins', sans-serif;
 }
 
 body {
-min-height: 100vh;
+min-height: 130vh;
 display: flex;
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 overflow-x: hidden;
@@ -39,7 +41,7 @@ position: relative;
 background: rgba(255, 255, 255, 0.05);
 backdrop-filter: blur(10px);
 border-radius: 20px;
-padding: 10px 20px;
+padding: 40px 20px;
 box-shadow: 0 0 20px cyan;
 width: 90%;
 max-width: 800px;
@@ -162,26 +164,6 @@ font-size: 1.5rem;
 }
 }
 
-
-
-
-@keyframes glow {
-    0% {
-      text-shadow: 0 0 5px deeppink, 0 0 10px deeppink, 0 0 15px deeppink;
-    }
-    33% {
-      text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
-    }
-    66% {
-      text-shadow: 0 0 5px #0000FF, 0 0 10px #0000FF, 0 0 15px #0000FF;
-    }
-    100% {
-      text-shadow: 0 0 5px #FF0000, 0 0 10px #FF0000, 0 0 15px #FF0000;
-    }
-    133% {
-      text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow;
-    }
-  }
 </style>
 </head>
 <body>
@@ -210,12 +192,11 @@ font-size: 1.5rem;
 <i class="fa-brands fa-instagram fa-shake"></i> Instagram
 </a>
 
-<a href="https://wa.me/923143702270?text=Hi%20%F0%92%81%82%F0%93%84%82%E2%9D%A5.%F0%9F%94%A5%E2%84%93%C4%85%C4%8F%E2%84%93%C4%85%20%24h%E2%82%AC%C9%A8%D0%8Ch%20%C8%BC%E0%B9%8F%C4%8F%E2%82%AC%D1%8F%E2%80%A2%C2%B2%E2%81%B4%E2%81%B0%C2%B2%E0%BC%BD%E0%BC%BC%20%E2%99%A1%F0%92%81%82%20can%20you%20help%20me" target="_blank" class="link-item">
+<a href="https://api.whatsapp.com/send?phone=923143702270&text=HI+👑•༆𓄂.🔥ℓąďℓą §h€ɨЌh ȼ๏ď€я•²⁴⁰²༆•👑♡𒁂" target="_blank" class="link-item">
 <i class="fas fa-user"></i>𒁂𓄂❥𝕚𝕥𝕩.🔥ɭคɗɭค รɦﻉٱᛕɦ༽༼ 𒁂</a>
 
 </div>
 </div>
-<div align="center" class="glowing-text" style="font-size: 14px; font-weight: bold; color: cyan; animation: glow 2s infinite; position: relative; top: -100px;">🅲🄾🅳🅴 Bʏ 𒁂𓄂❥𝕚𝕥𝕩.🔥ɭคɗɭค รɦﻉٱᛕɦ༽༼ ♡𒁂  </div>
 
 <script>
 // SweetAlert2 on Load
@@ -230,6 +211,27 @@ confirmButtonColor: "cyan",
 backdrop: `rgba(0,0,0,0.9)`
 });
 </script>
+<div align="center" class="glowing-text" style="font-size: 14px; font-weight: bold; color: cyan; animation: glow 2s infinite; position: relative; top: -100px;">🅲🄾🅳🅴 Bʏ 𒁂𓄂❥𝕚𝕥𝕩.🔥ɭคɗɭค รɦﻉٱᛕɦ༽༼ ♡𒁂  </div>
+
+<style>
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px deeppink, 0 0 10px deeppink, 0 0 15px deeppink;
+    }
+    33% {
+      text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
+    }
+    66% {
+      text-shadow: 0 0 5px #0000FF, 0 0 10px #0000FF, 0 0 15px #0000FF;
+    }
+    100% {
+      text-shadow: 0 0 5px #FF0000, 0 0 10px #FF0000, 0 0 15px #FF0000;
+    }
+    133% {
+      text-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow;
+    }
+  }
+</style>
   
 </body>
 </html>
